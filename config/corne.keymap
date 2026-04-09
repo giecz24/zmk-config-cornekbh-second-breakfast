@@ -201,9 +201,9 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp F1      &kp F2               &kp F3           &kp F4            &kp F5              &kp F6              &kp GRAVE   &kp DOLLAR            &kp AT_SIGN                 &kp ASTERISK                 &kp N0                         &none
-&kp F7      &hm LEFT_CONTROL F8  &hm LEFT_ALT F9  &hm LEFT_GUI F10  &hm LEFT_SHIFT F11  &kp F12             &kp EQUAL   &hm RIGHT_SHIFT HASH  &hm RIGHT_GUI LEFT_BRACKET  &hm RIGHT_ALT RIGHT_BRACKET  &hm RIGHT_CONTROL EXCLAMATION  &kp LCTRL
-&kp K_MUTE  &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &kp K_PREV        &kp K_NEXT          &kp K_PLAY_PAUSE    &none       &kp PERCENT           &none                       &none                        &none                          &none
+&kp F1      &kp F2               &kp F3           &kp F4            &kp F5              &kp F6              &kp GRAVE   &kp DOLLAR            &kp AT_SIGN                     &kp ASTERISK                     &kp N0                         &none
+&kp F7      &hm LEFT_CONTROL F8  &hm LEFT_ALT F9  &hm LEFT_GUI F10  &hm LEFT_SHIFT F11  &kp F12             &kp EQUAL   &hm RIGHT_SHIFT HASH  &hm RIGHT_GUI LEFT_PARENTHESIS  &hm RIGHT_ALT RIGHT_PARENTHESIS  &hm RIGHT_CONTROL EXCLAMATION  &kp LCTRL
+&kp K_MUTE  &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &kp K_PREV        &kp K_NEXT          &kp K_PLAY_PAUSE    &none       &kp PERCENT           &kp LEFT_BRACKET                &kp RIGHT_BRACKET                &none                          &none
                                                   &none             &trans              &trans              &kp DELETE  &kp BACKSPACE         &none
             >;
         };
